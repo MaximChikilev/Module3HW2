@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Quiz</title>
+</head>
+<body>
+<h2> Please answer 2 questions in our super quiz</h2>
+
+<h3>What is the boiling point of water:</h3>
+<form action="/quiz" method="post">
+
+    <label>
+        <input type="radio" name="BoilTemperature" value="100">
+        100
+    </label>
+
+    <label>
+        <input type="radio" name="BoilTemperature" value="80">
+        80
+    </label>
+
+    <label>
+        <input type="radio" name="BoilTemperature" value="120">
+        120
+    </label>
+
+    <h3>What is the melting point of aluminum:</h3>
+
+    <label>
+        <input type="radio" name="MeltingPoint" value="350">
+        350
+    </label>
+
+    <label>
+        <input type="radio" name="MeltingPoint" value="660,3">
+        660,3
+    </label>
+
+    <br>
+    <button type="submit">Submit and view the result</button>
+</form>
+<br>
+<br>
+<table>
+    <tr>
+        <td>&nbsp;</td>
+        <td>100</td>
+        <td>80</td>
+        <td>120</td>
+    </tr>
+    <tr>
+        <td>BoilTemperature</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>&nbsp;</td>
+        <td>350</td>
+        <td>660,3</td>
+    </tr>
+    <tr>
+        <td>MeltingPoint</td>
+    </tr>
+</table>
+</body>
+</html>
